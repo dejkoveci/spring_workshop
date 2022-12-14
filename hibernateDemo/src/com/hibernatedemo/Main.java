@@ -35,7 +35,7 @@ public class Main {
 			/*
 			 * List<String> countryCodes = session
 			 * .createQuery("select c.countryCode from City c GROUP BY countryCode")
-			 * .getResultList();
+			 * .getResultList(); //executeUpdate();
 			 * 
 			 * for(String countryCode:countryCodes) { System.out.println(countryCode); }
 			 */
