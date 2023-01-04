@@ -33,7 +33,7 @@ public class CityController {
 		return cityService.getAllCities();
 	}
 	
-	@PostMapping("/city/add")
+	@PostMapping("/city/add/{countryId}")
 	public void add(@PathVariable Long countryId,@RequestBody City city) {
 		cityService.addCity(countryId, city);
 	}
